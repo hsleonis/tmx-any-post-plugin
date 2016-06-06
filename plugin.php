@@ -28,4 +28,5 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 Copyright 2016 ThemeAxe.
 */
 
-require('widget.php');
+require ('enqueue.php');
+require ('widget.php');

@@ -15,7 +15,7 @@ class TmxAnyPost extends \WP_Widget {
      * TmxAnyPost constructor.
      */
     function __construct() {
-        parent::__construct( 'tmx_any_post', 'ThemeAxe Any Post' );
+        parent::__construct( 'tmx_wonder_widgets_any_post', 'ThemeAxe Any Post' );
     }
 
     /**

@@ -15,7 +15,7 @@ class TmxAuthor extends \WP_Widget {
      * TmxAuthorBio constructor.
      */
     function __construct() {
-        parent::__construct( 'tmx_author_bio', 'ThemeAxe Author Bio' );
+        parent::__construct( 'tmx_wonder_widgets_author_bio', 'ThemeAxe Author Bio' );
     }
 
     /**

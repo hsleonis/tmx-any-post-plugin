@@ -1,0 +1,21 @@
+/*
+
+THEMEAXE ALL WIDGETS
+PREMIUM PLUGIN
+Author: Md. Hasan Shahriar
+Website: http://themeaxe.com
+Email: themeaxe@gmail.com
+
+*/
+
+div.widget[id*=_tmx_wonder_widgets_] .widget-top {
+    background: #42A5F5;
+}
+
+div.widget[id*=_tmx_wonder_widgets_] .widget-title h3{
+    color: #FFF;
+}
+
+div.widget[id*=_tmx_wonder_widgets_] .widget-title h3 .in-widget-title{
+    color: #DDD;
+}
