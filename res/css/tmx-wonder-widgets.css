@@ -9,13 +9,19 @@ Email: themeaxe@gmail.com
 */
 
 div.widget[id*=_tmx_wonder_widgets_] .widget-top {
-    background: #42A5F5;
+    background: #00e676;
+    border: 0 none;
+    border-bottom: 2px solid #00c853;
 }
 
 div.widget[id*=_tmx_wonder_widgets_] .widget-title h3{
-    color: #FFF;
+    color: #121212;
 }
 
 div.widget[id*=_tmx_wonder_widgets_] .widget-title h3 .in-widget-title{
-    color: #DDD;
+    color: #343434;
+}
+
+div.widget[id*=_tmx_wonder_widgets_] input[type=text] {
+    border-width: 0 0 1px 0;
 }
