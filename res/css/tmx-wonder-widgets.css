@@ -8,20 +8,63 @@ Email: themeaxe@gmail.com
 
 */
 
+.widgets-sortables div.widget.open[id*=_tmx_wonder_widgets_] {
+    border: 1px solid rgba(31, 37, 61, 0.5);
+    border-radius: 7px;
+}
+
 div.widget[id*=_tmx_wonder_widgets_] .widget-top {
-    background: #00e676;
+    background: #11a8ab;
     border: 0 none;
-    border-bottom: 2px solid #00c853;
+}
+.widgets-sortables div.widget.open[id*=_tmx_wonder_widgets_] .widget-top {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 div.widget[id*=_tmx_wonder_widgets_] .widget-title h3{
-    color: #121212;
+    color: #FFF;
 }
 
 div.widget[id*=_tmx_wonder_widgets_] .widget-title h3 .in-widget-title{
-    color: #343434;
+    color: #DDD;
 }
 
-div.widget[id*=_tmx_wonder_widgets_] input[type=text] {
-    border-width: 0 0 1px 0;
+div.widget[id*=_tmx_wonder_widgets_] .widget-inside {
+    background: #394264;
+    border: 0 none;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: #9099b7;
+}
+
+div.widget[id*=_tmx_wonder_widgets_] input,
+div.widget[id*=_tmx_wonder_widgets_] select,
+div.widget[id*=_tmx_wonder_widgets_] textarea {
+    background: #50597b;
+    color: #fff;
+    border: solid 1px #1f253d;
+}
+
+div.widget[id*=_tmx_wonder_widgets_] input[type=submit] {
+    background: #11a8ab;
+    border: 0 none;
+    color: #FFF;
+    text-shadow: 0 0 0 transparent;
+    box-shadow: 0 0 0 transparent;
+}
+
+div.widget[id*=_tmx_wonder_widgets_] input[type=submit]:hover,
+div.widget[id*=_tmx_wonder_widgets_] input[type=submit]:active,
+div.widget[id*=_tmx_wonder_widgets_] input[type=submit]:focus {
+    background: #0F9295;
+}
+
+div.widget[id*=_tmx_wonder_widgets_] .widget-control-remove,
+div.widget[id*=_tmx_wonder_widgets_] .widget-control-close {
+    color: #e1f5fe;
+}
+
+div.widget[id*=_tmx_wonder_widgets_] .widget-control-remove:hover {
+    color: #e64c65;
 }
